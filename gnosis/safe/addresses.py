@@ -489,6 +489,7 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
 }
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
+    
     EthereumNetwork.MAINNET: [
         (
             "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
@@ -802,6 +803,10 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.CORE_BLOCKCHAIN_TESTNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 930394),     # v1.3.0
+    ],
+    EthereumNetwork.NEXIS: [
+        ("0xaF31F60A704054999975B0B59C5c809661162551", 	
+5567920),     # v1.3.0
     ],
     EthereumNetwork.CORE_BLOCKCHAIN_MAINNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 25894),  # v1.3.0
