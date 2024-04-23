@@ -479,6 +479,10 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     EthereumNetwork.CORE_BLOCKCHAIN_TESTNET: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 930577, "1.3.0+L2"),
     ],
+    EthereumNetwork.NEXIS: [
+        ("0xe84239054716dc4718696a925865631eB29516fA", 	
+5567920, "1.3.0+L2"),
+    ],
     EthereumNetwork.CORE_BLOCKCHAIN_MAINNET: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 25922, "1.3.0+L2"),
     ],
